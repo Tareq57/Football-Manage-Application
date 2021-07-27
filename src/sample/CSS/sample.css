@@ -1,0 +1,36 @@
+.jfx-button{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+    -fx-effect: dropshadow(three-pass-box, rgba(231, 234, 229, 0.5),1,1,0,1);
+    -fx-text-fill: rgba(256,256,256,1);
+}
+.jfx-button:hover{
+    -fx-background-radius: 10;
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75),#ff66cc,#02152ABE);
+    -fx-background-size: 50px;
+    -fx-effect: dropshadow(three-pass-box,rgba(110,256,0,0.5),1,1,0,1);
+    -fx-text-fill: rgba(256,256,256,1);
+}
+.label{
+    -fx-text-fill: #ffffff;
+
+}
+#Password{
+    -fx-text-fill: white;
+}
+#anchor_left{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+    -fx-effect: dropshadow(three-pass-box, rgb(93, 186, 32),1,1,1,1);
+}
+#anchor_right{
+    -fx-background-color:#06283b;
+}
+.jfx-text-field{
+    -fx-text-fill: white;
+}
+

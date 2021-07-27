@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSnackbar?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="add_player_anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="512.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddPlayer">
+   <children>
+      <Label fx:id="club_name" layoutX="148.0" layoutY="26.0" prefHeight="37.0" prefWidth="274.0" text="Club">
+         <font>
+            <Font name="Algerian" size="35.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="name" labelFloat="true" layoutX="66.0" layoutY="93.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Name">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="country" labelFloat="true" layoutX="66.0" layoutY="169.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Country Name">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="age" labelFloat="true" layoutX="65.0" layoutY="247.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Age">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="number" labelFloat="true" layoutX="65.0" layoutY="325.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Jersey Number">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="height" labelFloat="true" layoutX="66.0" layoutY="398.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Height">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="position" labelFloat="true" layoutX="65.0" layoutY="483.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Position">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="salary" labelFloat="true" layoutX="66.0" layoutY="559.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Weekly Salary">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="192.0" layoutY="619.0" onAction="#Add_PLayer_buttonAction" prefHeight="47.0" prefWidth="126.0" text="ADD PLAYER">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXSnackbar fx:id="snackbar" layoutY="650.0" />
+   </children>
+</AnchorPane>

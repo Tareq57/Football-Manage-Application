@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSnackbar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="BorderPane" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.MarketPage">
+    <center>
+        <ScrollPane fx:id="scroll" prefHeight="485.0" prefWidth="492.0" BorderPane.alignment="CENTER">
+            <content>
+                <GridPane fx:id="grid" prefHeight="11.0" prefWidth="0.0">
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                </GridPane>
+            </content>
+        </ScrollPane>
+    </center>
+    <top>
+        <AnchorPane prefHeight="130.0" prefWidth="742.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="179.0" layoutY="8.0" text="FOOTBALL PLAYER MANAGEMENT SYSTEM">
+                    <font>
+                        <Font name="Agency FB Bold" size="30.0" />
+                    </font>
+                </Label>
+                <Label fx:id="club_name" layoutX="257.0" layoutY="90.0" prefHeight="34.0" prefWidth="321.0" text="VIEWER">
+                    <font>
+                        <Font name="Algerian" size="30.0" />
+                    </font>
+                </Label>
+                <JFXButton buttonType="RAISED" layoutX="596.0" layoutY="85.0" onAction="#all_players_action" prefHeight="44.0" prefWidth="145.0" text="REFRESH">
+                    <font>
+                        <Font name="Algerian" size="16.0" />
+                    </font>
+                </JFXButton>
+                <JFXSnackbar fx:id="snackbar" layoutY="570.0" />
+            <Label layoutX="30.0" layoutY="90.0" prefHeight="34.4" prefWidth="160.0" text="MARKET">
+               <font>
+                  <Font name="Algerian" size="30.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </top>
+    <left>
+        <AnchorPane prefHeight="458.0" prefWidth="103.0" BorderPane.alignment="CENTER">
+            <children>
+                <JFXButton buttonType="RAISED" layoutX="1.0" layoutY="149.0" onAction="#home_onAction" prefHeight="56.0" prefWidth="109.0" text="HOME">
+                    <font>
+                        <Font name="Algerian" size="20.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton buttonType="RAISED" layoutX="1.0" layoutY="383.0" onAction="#logout_onAction" prefHeight="56.0" prefWidth="109.0" text="LOG OUT">
+                    <font>
+                        <Font name="Algerian" size="20.0" />
+                    </font>
+                </JFXButton>
+            </children>
+        </AnchorPane>
+    </left>
+    <bottom>
+        <AnchorPane prefHeight="26.0" prefWidth="742.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label alignment="CENTER" prefHeight="32.0" prefWidth="742.0" text="Created by https://github.com/Tareq57">
+                    <font>
+                        <Font name="Agency FB Bold" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </bottom>
+</BorderPane>

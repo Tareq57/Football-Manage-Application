@@ -1,0 +1,118 @@
+.jfx-button{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+    -fx-background-size: 50px;
+    -fx-effect: dropshadow(three-pass-box, rgba(231, 234, 229, 0.5),1,1,0,1);
+    -fx-text-fill: rgba(256,256,256,1);
+    -fx-end-margin: 10px;
+}
+.jfx-button:hover{
+    -fx-background-radius: 10;
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75),#ff66cc,#02152ABE);
+    -fx-background-size: 50px;
+    -fx-effect: dropshadow(three-pass-box,rgba(110,256,0,0.5),1,1,0,1);
+    -fx-text-fill: rgba(256,256,256,1);
+}
+.jfx-snackbar-content{
+    -fx-background-color: black;
+    -fx-text-alignment: center;
+}
+.jfx-snackbar-toast{
+    -fx-text-fill:white;
+    -fx-text-alignment: right;
+}
+.jfx-anchor-pane{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+}
+.jfx-scroll-pane{
+    -fx-background-color:white;
+}
+.label{
+    -fx-text-fill: white;
+}
+.jfx-text-area{
+    -fx-text-fill: white;
+
+
+
+}
+.jfx-text-field{
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: white;
+
+}
+.VBox{
+
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+
+}
+
+#BorderPane{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+
+}
+#scroll{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+
+}
+.scroll-pane > .viewport{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+}
+#grid_player_name{
+    -fx-background-radius: 10;
+}
+#image{
+    -fx-background-radius: 10;
+}
+#grid_item{
+    -fx-background-radius: 10;
+}
+#player_detail_anchorpane{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+
+}
+#player_detail_anchorpane:hover{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75),#ff66cc,#02152ABE);
+
+}
+#grid_item:hover{
+    -fx-background-width:172px ;
+    -fx-background-height: 159px;
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75),#ff66cc,#02152ABE);
+}
+#confirmation_anchorpane{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+}
+#add_player_anchorpane{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+}
+#anchorpane_edit{
+    -fx-background-color:
+            radial-gradient(center 40% -50%,radius 10%,indianred 50%,red 50%),
+            linear-gradient(rgba(2, 21, 42, 0.75), #010c01,#02152ABE);
+}
+
+

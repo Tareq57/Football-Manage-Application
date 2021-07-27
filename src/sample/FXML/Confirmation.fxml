@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSnackbar?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="confirmation_anchorpane" prefHeight="262.0" prefWidth="436.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Confirmation">
+   <children>
+      <JFXButton fx:id="sell_button" buttonType="RAISED" layoutX="60.0" layoutY="201.0" onAction="#sell_onAction" prefHeight="46.0" prefWidth="136.0" text="SELL">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="sell_price" labelFloat="true" layoutX="84.0" layoutY="131.0" prefHeight="37.0" prefWidth="294.0" promptText="Enter a price">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <Label fx:id="text" layoutX="60.0" layoutY="27.0" text="Do You Want To Sell This Player?">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="253.0" layoutY="201.0" onAction="#go_back_onAction" prefHeight="46.4" prefWidth="136.0" text="GO BACK">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXSnackbar fx:id="snackbar" layoutY="210.0" />
+      <Label fx:id="price_label" layoutX="120.0" layoutY="60.0" text="CURRENT SELL PRICE : 200 $">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

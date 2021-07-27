@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSnackbar?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorpane_edit" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="556.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.EditPage">
+   <children>
+      <Label fx:id="club_name" layoutX="156.0" layoutY="30.0" prefHeight="50.0" prefWidth="298.0" text="Club">
+         <font>
+            <Font name="Algerian" size="35.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="age" labelFloat="true" layoutX="76.0" layoutY="136.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Age">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="number" labelFloat="true" layoutX="76.0" layoutY="226.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Jersey Number">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="height" labelFloat="true" layoutX="76.0" layoutY="320.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Height">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="position" labelFloat="true" layoutX="76.0" layoutY="412.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Position">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="salary" labelFloat="true" layoutX="76.0" layoutY="509.0" prefHeight="38.0" prefWidth="379.0" promptText="Enter the player's Weekly Salary">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="191.0" layoutY="603.0" onAction="#Edit_PLayer_buttonAction" prefHeight="47.0" prefWidth="126.0" text="EDIT">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXSnackbar fx:id="snackbar" layoutY="671.0" />
+   </children>
+</AnchorPane>
